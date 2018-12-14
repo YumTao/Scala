@@ -1,6 +1,6 @@
 package com.yumtao.func
 
-import com.yumtao.test1.DefVal
+import com.yumtao.logic.DefVal
 
 /**
   * scala 中都是方法，任何操作实际上都是调用方法
