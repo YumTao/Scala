@@ -7,7 +7,7 @@ import scala.collection.mutable.ListBuffer
 object MuSeqDemo {
 
   def main(args: Array[String]): Unit = {
-    var list = ListBuffer(1, 2)
+    var list = ListBuffer(0, 2)
     list(1) = 1
     println(list)
 

@@ -72,7 +72,7 @@ object HelloScala extends App {
   val techparty = Dongfangbubai.getGroup("techparty")
 
   /*DSL风格的函数调用*/
-  techparty kill "linghuchong"
+//  techparty kill "linghuchong"
 
   /*数组创建*/
   val members = Array(
@@ -83,14 +83,14 @@ object HelloScala extends App {
   )
 
   /*以闭包做为参数调用函数*/
-  techparty.play("baskatboll", members, member => "My name is wowowo")
+//  techparty.play("baskatboll", members, member => "My name is wowowo")
 
   def present(member: Member) = {
     if (member.topic != null) member.name + " is presenting." else null
   }
 
   /*入参为函数调用函数*/
-  techparty.play("present", members, present)
+//  techparty.play("present", members, present)
 
   /*偏应用函数的定义及使用*/
   val potluck = techparty.play("let`s go potluck", members, _: Member => String)

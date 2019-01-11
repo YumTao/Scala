@@ -27,6 +27,15 @@ object TupleDemo {
     val name = Array("jack", "rose", "tom")
     val na = name zip age
     println(na.toMap)
+
   }
 
+}
+
+object TupleDemo2 extends App {
+  val tuple = ("a", 1)
+  val tuple2 = ("b", 1)
+
+  val map = Array(tuple, tuple2).toMap
+  println(map)
 }
